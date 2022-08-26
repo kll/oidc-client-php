@@ -131,7 +131,6 @@ class Client
             'enable_pkce' => true,
             'enable_nonce' => true,
             'allow_implicit_flow' => false,
-            'code_challenge_method' => 'plain',
             'leeway' => 300,
             'redirect_uri' => $this->getCurrentURL(),
             'response_types' => [],
